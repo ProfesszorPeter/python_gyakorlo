@@ -3,4 +3,9 @@
 A = int(input("Adjon meg egy valós számot: "))
 K = int(input("Adjom meg egy egész számot: "))
 
+hatvagyertek = 1
 
+for _ in range(abs(K)):
+    hatvagyertek *= A if K > 0 else 1 / A
+
+print(f"{A} szám {K} adig hatványa: {hatvagyertek}")
