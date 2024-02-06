@@ -3,5 +3,8 @@
 a = int(input("Adja meg a kisebb pozitív valós számot: "))
 b = int(input("Adja meg a nagyobbik pozitív valós számot: "))
 
+if a > b:
+    print("nem jó sorrendben adta meg a számokat!")
+    quit()
 for i in range(a + 1, b):
     print(i)
