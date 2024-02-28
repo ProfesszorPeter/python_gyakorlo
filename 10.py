@@ -2,6 +2,6 @@
 
 a = int(input("Adjon meg egy pozitív egész számot: "))
 
-osszeg = sum(range(1, a + 1))
+osszeg = sum(range(1, a))
 
 print(f"Az {a} és ennél kisebb pozitív egész számok összege: {osszeg}")
